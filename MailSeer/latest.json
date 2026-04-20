@@ -1,1 +1,13 @@
-
+{
+  "app": "MailSeer",
+  "version": "0.1.0",
+  "release_date": "2026-04-20",
+  "download_url": "",
+  "notes": [
+    "Initial Windows release",
+    "Local-first email search",
+    "Gmail, Yahoo, and Outlook support",
+    "Search cache and hybrid ranking improvements"
+  ],
+  "required": false
+}
