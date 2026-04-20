@@ -1,14 +1,14 @@
 {
   "app": "MailSeer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "release_date": "2026-04-20",
-  "download_url": "https://github.com/GaussEuler/MailSeer/releases/download/v0.1.0/MailSeer-Windows-v0.1.0.zip",
+  "download_url": "https://github.com/GaussEuler/MailSeer/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip",
   "notes": [
-    "Initial Windows release",
-    "Private local-first desktop email search",
-    "Gmail, Yahoo, Outlook support",
-    "Hybrid / semantic / lexical search",
-    "Insights and calendar features"
+    "Added in-app update notifications",
+    "Improved production website/download flow",
+    "Search and ranking improvements",
+    "Attachment-aware filtering",
+    "UI and stability refinements"
   ],
   "required": false
 }
