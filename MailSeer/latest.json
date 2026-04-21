@@ -2,7 +2,7 @@
   "app": "MailSeer",
   "version": "0.1.1",
   "release_date": "2026-04-20",
-  "download_url": "https://github.com/GaussEuler/MailSeer/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip",
+  "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip",
   "notes": [
     "Added in-app update notifications",
     "Improved production website/download flow",
