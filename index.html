@@ -301,10 +301,16 @@
           <li>Calendar, meeting, subscription, and event visibility</li>
         </ul>
 
-        <div class="actions">
-          <a href="/MailSeer/" class="btn btn-mailseer">
-            Visit MailSeer
-          </a>
+        <div class="actions">          
+          <a
+          href="/MailSeer/"
+          class="btn btn-mailseer"
+          onclick="gtag('event','visit_mailseer',{
+          'source':'searchseer_homepage'
+          });"
+          >
+          Visit MailSeer
+          </a>          
           <a href="/MailSeer/privacy.html" class="btn btn-secondary">
             MailSeer Privacy
           </a>
