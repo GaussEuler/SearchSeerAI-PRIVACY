@@ -96,13 +96,21 @@ body{
 <p>Private, local-first AI email search for Gmail, Yahoo, and Outlook.</p>
 
 <div class="buttons">
-
+  
 <a class="btn primary"
 href="https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Setup-v0.1.1.exe"
-onclick="gtag('event','download_installer',{
-'app':'MailSeer',
-'version':'0.1.1'
-});">
+onclick="
+gtag('event', 'download_installer', {
+  'app': 'MailSeer',
+  'version': '0.1.1'
+});
+
+setTimeout(() => {
+  window.location.href=this.href;
+}, 200);
+
+return false;
+">
 Download Installer
 </a>
   
@@ -115,10 +123,19 @@ Recommended: installer (.exe). If needed, use the
 <a
 href="https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip"
 style="color:#93c5fd;"
-onclick="gtag('event','download_zip',{
-'app':'MailSeer',
-'version':'0.1.1'
-});"
+  
+onclick="
+gtag('event', 'download_zip', {
+  'app': 'MailSeer',
+  'version': '0.1.1'
+});
+
+setTimeout(() => {
+  window.location.href=this.href;
+}, 200);
+
+return false;
+"  
 >
 ZIP version
 </a>
