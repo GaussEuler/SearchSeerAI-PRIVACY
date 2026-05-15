@@ -104,19 +104,23 @@ onclick="
 const target=this.href;
 
 gtag('event','download_installer',{
-  app:'MailSeer',
-  version:'0.1.1'
+    app:'MailSeer',
+    version:'0.1.1',
+
+    event_callback:function(){
+        window.location=target;
+    }
 });
 
 setTimeout(function(){
    window.location=target;
-},1000);
+},2000);
 
 return false;
 "
 >
 Download Installer
-</a>
+</a>  
   
 <a class="btn secondary" href="privacy.html">
 Privacy Policy
@@ -127,25 +131,30 @@ Recommended: installer (.exe). If needed, use the
   
 <a
 href="https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip"
+
 style="color:#93c5fd;"
 
 onclick="
 const target=this.href;
 
 gtag('event','download_zip',{
-   app:'MailSeer',
-   version:'0.1.1'
+    app:'MailSeer',
+    version:'0.1.1',
+
+    event_callback:function(){
+        window.location=target;
+    }
 });
 
 setTimeout(function(){
    window.location=target;
-},1000);
+},2000);
 
 return false;
 "
 >
 ZIP version
-</a>
+</a>  
   
 <p style="margin-top:12px;color:#94a3b8;font-size:14px;">
 ZIP users: extract the full folder, then run mailseer_desktop.exe
