@@ -97,29 +97,7 @@ body{
 
 <div class="buttons">
   
-<a class="btn primary"
-href="https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Setup-v0.1.1.exe"
-
-onclick="
-const target=this.href;
-
-gtag('event','file_download',{
-    file_name:'MailSeer-Setup-v0.1.1.exe',
-    app:'MailSeer',
-    version:'0.1.1',
-
-    event_callback:function(){
-        window.open(target,'_blank');
-    }
-});
-
-setTimeout(function(){
-   window.open(target,'_blank');
-},2000);
-
-return false;
-"
->
+<a class="btn primary" href="download-installer.html">
 Download Installer
 </a>
   
@@ -130,31 +108,7 @@ Privacy Policy
 <p style="margin-top:12px;color:#94a3b8;font-size:14px;">
 Recommended: installer (.exe). If needed, use the
   
-<a
-href="https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip"
-
-style="color:#93c5fd;"
-
-onclick="
-const target=this.href;
-
-gtag('event','file_download',{
-    file_name:'MailSeer-Windows-v0.1.1.zip',
-    app:'MailSeer',
-    version:'0.1.1',
-
-    event_callback:function(){
-        window.open(target,'_blank');
-    }
-});
-
-setTimeout(function(){
-   window.open(target,'_blank');
-},2000);
-
-return false;
-"
->
+<a href="download-zip.html" style="color:#93c5fd;">
 ZIP version
 </a>
   
