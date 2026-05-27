@@ -1,14 +1,23 @@
 {
   "app": "MailSeer",
-  "version": "0.1.1",
-  "release_date": "2026-04-20",
-  "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.1/MailSeer-Windows-v0.1.1.zip",
+  "version": "0.1.2",
+  "release_date": "2026-05-27",
+
+  "windows": {
+    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-Setup-v0.1.1.exe"
+  },
+
+  "macos": {
+    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-macOS-v0.1.2.dmg"
+  },
+
   "notes": [
-    "Added in-app update notifications",
-    "Improved production website/download flow",
-    "Search and ranking improvements",
-    "Attachment-aware filtering",
-    "UI and stability refinements"
+    "Added native macOS desktop support",
+    "Gmail and Outlook sync support on macOS",
+    "Calendar integration improvements",
+    "Search and ranking refinements",
+    "UI and stability improvements"
   ],
+
   "required": false
 }
