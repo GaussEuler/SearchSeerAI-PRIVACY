@@ -2,7 +2,6 @@
   "app": "MailSeer",
   "version": "0.2.0",
   "release_date": "2026-07-24",
-
   "windows": {
     "version": "0.2.0",
     "architecture": "x64",
@@ -13,12 +12,10 @@
     "local_ai_guide_url": "https://www.searchseer.ai/MailSeer/local-ai-setup.html",
     "windows_on_arm_supported": false
   },
-
   "macos": {
     "version": "0.1.2",
     "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-macOS-v0.1.2.dmg"
   },
-
   "notes": [
     "Added Ask MailSeer with optional local AI",
     "Added optional Enhanced Ranking for stronger retrieval precision",
@@ -29,6 +26,5 @@
     "Added guided Local AI setup",
     "Added signed Windows x64 installer and portable release"
   ],
-
   "required": false
 }
