@@ -1,22 +1,33 @@
 {
   "app": "MailSeer",
-  "version": "0.1.2",
-  "release_date": "2026-05-27",
+  "version": "0.2.0",
+  "release_date": "2026-07-24",
 
   "windows": {
-    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-Setup-v0.1.1.exe"
+    "version": "0.2.0",
+    "architecture": "x64",
+    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.2.0/MailSeer-Setup-v0.2.0-Windows-x64.exe",
+    "portable_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.2.0/MailSeer-v0.2.0-Windows-x64-portable.zip",
+    "sha256": "39ca6b8f43686c5731cb3d460fe77d92ff59873819f44c3dfed78694d602b5ac",
+    "release_notes_url": "https://www.searchseer.ai/MailSeer/release-notes-0.2.0.html",
+    "local_ai_guide_url": "https://www.searchseer.ai/MailSeer/local-ai-setup.html",
+    "windows_on_arm_supported": false
   },
 
   "macos": {
+    "version": "0.1.2",
     "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-macOS-v0.1.2.dmg"
   },
 
   "notes": [
-    "Added native macOS desktop support",
-    "Gmail and Outlook sync support on macOS",
-    "Calendar integration improvements",
-    "Search and ranking refinements",
-    "UI and stability improvements"
+    "Added Ask MailSeer with optional local AI",
+    "Added optional Enhanced Ranking for stronger retrieval precision",
+    "Expanded mailbox intelligence across calendar, meetings, bills, finance, commerce, documents, work, and account security",
+    "Improved semantic, hybrid, and lexical search routing",
+    "Improved calendar integration and What Matters Now",
+    "Added single-instance protection and backend lifecycle hardening",
+    "Added guided Local AI setup",
+    "Added signed Windows x64 installer and portable release"
   ],
 
   "required": false
