@@ -13,8 +13,11 @@
     "windows_on_arm_supported": false
   },
   "macos": {
-    "version": "0.1.2",
-    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.1.2/MailSeer-macOS-v0.1.2.dmg"
+    "version": "0.2.0",
+    "architecture": "arm64",
+    "download_url": "https://github.com/GaussEuler/MailSeer-Releases/releases/download/v0.2.0/MailSeer-macOS-v0.2.0.dmg",
+    "sha256": "ebbe9a1bbbe4b93691ef9c90adcd629c55bb8fa06546f0ed35489d641437b118",
+    "release_notes_url": "https://www.searchseer.ai/MailSeer/release-notes-0.2.0.html"
   },
   "notes": [
     "Added Ask MailSeer with optional local AI",
@@ -24,7 +27,8 @@
     "Improved calendar integration and What Matters Now",
     "Added single-instance protection and backend lifecycle hardening",
     "Added guided Local AI setup",
-    "Added signed Windows x64 installer and portable release"
+    "Added signed Windows x64 installer and portable release",
+    "Added signed, notarized macOS Apple Silicon release"
   ],
   "required": false
 }
